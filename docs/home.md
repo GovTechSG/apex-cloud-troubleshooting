@@ -1,6 +1,6 @@
 # APEX Cloud Troubleshooting Guide
 
-This guide provides you with troubleshooting steps for fixing any issues that you might encounter while using APEX Cloud.
+This guide provides steps for fixing any issues that you might encounter while using APEX Cloud.
 
 #### Audience
 

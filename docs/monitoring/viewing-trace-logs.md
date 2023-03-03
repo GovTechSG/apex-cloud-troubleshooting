@@ -1,16 +1,15 @@
-# View logs in stack trace
+# Viewing trace logs
 
-Intro -
+To troubleshoot and resolve API issues, you can review stack trace logs in the Elastic Cloud deployment. To view the logs, you need to identify the correlation ID of the specific request that led to the error, and then use that correlation ID to view the stack trace of that request. The stack trace provides detailed information about the sequence of method calls that led to the error.
 
 ### Prerequisites
+You need to have:
+- An active TechPass account [?]
+- Access to your Elastic Cloud deployment [?]
 
-To begin with, you'll need:
-- An active TechPass account
-- Elastic Cloud deployment
-
-To view message logs in stack trace, follow these steps:
+To view stack trace logs, follow these steps:
 <!--
-How about logging in?
+logging in?
 Navigating to "space"?
 
 Questions:
@@ -20,10 +19,10 @@ Questions:
 -->
 
 - [STEP 1: Identify the correlation ID of the problematic API request](#step-1-identify-the-correlation-id-of-the-problematic-api-request)
-- [STEP 2: Generate a list of stack traces that are related to the correlation ID](#step-2-generate-a-stack-trace-list-that-are-related-to-the-correlation-id)
+- [Step 2: Generate the list of stack traces related to the correlation ID](#step-2-generate-the-list-of-stack-traces-related-to-the-correlation-id)
 - [STEP 3: Browse the stack trace list and review the logs](#step-3-browse-the-stack-trace-list-and-review-the-logs)
 
-### STEP 1: Identify the correlation ID of the problematic API request.
+### Step 1: Identify the correlation ID of the problematic API request
 
 1. Go to the APEX Cloud Elastic Cloud Platform: https://gvt-gds-apex-apex-stg.kb.ap-southeast-1.aws.found.io/. *[Note: prod link?]*
 
@@ -55,25 +54,28 @@ Questions:
 
 1. Copy the `correlationId` value of the problematic API request.
 
-### STEP 2: Generate a stack trace list that are related to the correlation ID.
+### Step 2: Generate the list of stack traces related to the correlation ID
 
 1. Open the data view dropdown, and select the **apigw-traffic-trace** data view.
 
 1. On the KQL search field, enter a query for the `correlationId` field. 
 
-    For example, `correlationId : ac25ff63feabb71075ce47f5`
+    For example, `correlationId :ac25ff63feabb71075ce47f5`
 
-1. Submit the query. (Press enter?) A list of documents that match the query are displayed in the document table.
+1. Submit the query. A list of documents that match the query are displayed in the document table.
 
-### STEP 3: Browse the stack trace list and review the logs 
+### Step 3: Review the strack trace logs 
 
 1. From the list of **Available fields**, add the following fields as columns in the document table to simplify the view:
     - `timestamp`
     - `correlationId`
     - `message`
 
-1. Browse through the **message** column to review the sequence of method calls to diagnose any issues.
+1. Browse through the list and review the logs in the **message** column to see the sequence of method calls and diagnose any issues.
 
+### Next steps
+
+To further narrow down the stack trace logs list, you can filter the messages by the specific errors. Proceed to <link>.
 
 <!--
 

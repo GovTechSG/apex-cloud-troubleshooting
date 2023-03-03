@@ -3,5 +3,5 @@
 - [Overview](docs/home.md)
 
 - [Monitoring and logs](/docs/monitoring/monitoring-and-logs.md)
-    - [General troubleshooting](/docs/monitoring/general-troubleshooting.md)
+    - [Viewing trace logs](/docs/monitoring/viewing-trace-logs.md)
     - [Common Issues](/docs/monitoring/common-issues.md)
