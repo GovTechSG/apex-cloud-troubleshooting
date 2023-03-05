@@ -1,12 +1,12 @@
 # APEX Cloud Troubleshooting Guide
 
-This guide provides steps for fixing any issues that you might encounter while using APEX Cloud.
+This guide provides steps for diagnosing and fixing any issues that you might encounter while using APEX Cloud.
 
-#### Audience
+### Audience
 
 Currently, this documentation is intended for **APEX Cloud API Publishers**.
 
 #### Topics
-- Monitoring and Logs
+- [Monitoring and Logs](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/docs/monitoring/monitoring-and-logs)
     - General Troubleshooting
     - Common Issues

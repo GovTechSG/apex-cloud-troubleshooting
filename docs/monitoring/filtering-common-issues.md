@@ -1,10 +1,10 @@
 # Filtering common issues
 
-To filter common issues in the stack trace logs, use the syntax below.
+To filter the stack trace logs by the most common issues, use the specified syntax below.
 
-### Prerequisite
+## Prerequisite
 
-To proceed, you should have generated the stack trace if the problematic API request. Refer to 
+Find the correlation ID and view the stack traces related to the problematic API request. Refer to [Viewing stack trace](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/docs/monitoring/viewing-stack-trace).
 
 ## Filter that caused failure
 
