@@ -6,7 +6,3 @@ This guide provides steps for diagnosing and fixing any issues that you might en
 
 Currently, this documentation is intended for **APEX Cloud API Publishers**.
 
-### Topics
-- [API logs](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/docs/logs/api-logs)
-    - General Troubleshooting
-    - Common Issues
