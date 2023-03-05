@@ -14,7 +14,7 @@ Navigating to "space"?
 
 Questions:
 - are we sharing the staging link to Elastic platform? or is there a prod link?
-- what if user is not a public officer (corppass account)? how do they log in?
+- what if user is not a public officer (corppass account)? how do they log in? or only publishers so TP accounts only
 - agency users - do they see all the spaces or do they go to a default space?
 -->
 
@@ -24,9 +24,9 @@ Questions:
 
 ## Step 1: Identify the correlation ID of the problematic API request
 
-1. Go to the APEX Cloud Elastic Cloud Platform: https://gvt-gds-apex-apex-stg.kb.ap-southeast-1.aws.found.io/. *[Note: prod link?]*
+1. Go to the APEX Cloud Elastic Cloud Platform: https://gvt-gds-apex-apex-stg.kb.ap-southeast-1.aws.found.io/. 
 
-1. Log in with TechPass. The Elastic Cloud dashboard is displayed. [- Does agency need to select the agency space or it default?]
+1. Log in with TechPass. The Elastic Cloud dashboard is displayed. 
 
 1. Click the hamburger icon menu on the upper left of the dashboard. The sidebar menu is displayed. 
 
@@ -69,4 +69,4 @@ Questions:
 
 ### Next steps
 
-To further narrow down your search, you can also filter the stack trace logs by specific error messages. Proceed to <link>.
+To further narrow down your search, you can also filter the stack trace logs based on the issue encountered. Proceed to [Filtering common issues](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/docs/logs/filtering-common-issues).
