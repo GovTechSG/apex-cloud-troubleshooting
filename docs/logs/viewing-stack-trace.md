@@ -28,7 +28,7 @@ To view stack trace logs, follow these steps:
 
 1. Under the Analytics category, click **Discover**. 
 
-    ![Discover](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/discover.png)
+    ![Discover](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/discover.png ":size=230")
 
 1. In Discover, open the data view dropdown, and select the **apigw-traffic-summary** data view. The traffic summary is displayed.
 
@@ -43,7 +43,6 @@ To view stack trace logs, follow these steps:
     For example: `http.uri: \nyp-ioc-ip and processinfo.gatewayName  : External`
 
 1. Submit the query. A list of logs that match the query are displayed in the document table. 
-
 
 1. Browse through the logs and identify the problematic API request.
 
