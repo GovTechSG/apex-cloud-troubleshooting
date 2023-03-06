@@ -15,7 +15,7 @@ For example:<br>
 
 ![Common issues](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/common-issues.png)
 
-### Common issues
+### List of common issues
 
 Use any of the common issues below as values for the **message** parameter .
 
