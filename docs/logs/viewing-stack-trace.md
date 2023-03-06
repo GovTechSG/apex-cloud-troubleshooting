@@ -15,7 +15,7 @@ To view stack trace logs, follow these steps:
 
 ## Step 1: Identify the correlation ID of the problematic API request
 
-1. Go to the APEX Cloud Elastic Cloud Platform: <br>
+1. Go to the APEX Cloud Elastic Cloud deployment: <br>
     https://gvt-gds-apex-apex-stg.kb.ap-southeast-1.aws.found.io/. 
 
 1. [Log in with TechPass](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass). The Elastic Cloud dashboard is displayed. 
@@ -60,7 +60,7 @@ To view stack trace logs, follow these steps:
 
 ## Step 3: Review the strack trace logs 
 
-1. From the list of **Available fields**, add the **timestamp**, **correlationId**, and **message** fields to the document table to simplify your view: 
+1. From the list of Available fields, add the **timestamp**, **correlationId**, and **message** fields to the document table to simplify your view: 
 
     ![Stack trace fields](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/stack-trace-fields.png ":size=343")
 
