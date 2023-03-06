@@ -28,7 +28,7 @@ To view stack trace logs, follow these steps:
 
     ![Discover](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/discover.png ":size=150")
 
-1. In Discover, select the **apigw-traffic-summary** data view. The traffic summary is displayed.
+1. In Discover, open the data view dropdown and select  the **apigw-traffic-summary** data view. 
 
     ![Find the correlation ID](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/find-correlation-ID.png)
 

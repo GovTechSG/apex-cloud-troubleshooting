@@ -4,7 +4,7 @@ To filter the stack trace logs by the most common issues, use the query below.
 
 ## Prerequisite
 
-You need to [generate the stack trace related to the issue](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/docs/logs/viewing-stack-trace).
+You need to [display the stack traces related to the issue](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/docs/logs/viewing-stack-trace) in your Elastic Cloud deployment dashboard.
 
 ## Query syntax
 
