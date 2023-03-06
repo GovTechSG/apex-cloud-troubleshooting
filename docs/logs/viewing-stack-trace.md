@@ -28,7 +28,7 @@ To view stack trace logs, follow these steps:
 
 1. Under the Analytics category, click **Discover**. 
 
-    ![Discover](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/discover.png ":size=230")
+    ![Discover](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/discover.png ":size=180")
 
 1. In Discover, open the data view dropdown, and select the **apigw-traffic-summary** data view. The traffic summary is displayed.
 
