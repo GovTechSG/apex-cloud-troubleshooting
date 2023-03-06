@@ -24,9 +24,7 @@ To view stack trace logs, follow these steps:
 
     ![Select your space](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/login-spaces.png ":size=230") 
 
-1. Click the hamburger icon menu on the upper left of the dashboard. The sidebar menu is displayed. 
-
-1. Under the Analytics category, click **Discover**. 
+1. Click the hamburger icon menu on the upper left of the dashboard, and under the Analytics category, click **Discover**. 
 
     ![Discover](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/discover.png ":size=150")
 
