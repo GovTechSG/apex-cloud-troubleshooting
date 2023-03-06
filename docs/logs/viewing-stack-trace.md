@@ -4,7 +4,7 @@ You can check the stack trace of a problematic API request to see any errors or 
 
 ## Prerequisites
 You need:
-- An active TechPass account
+- An active [TechPass](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass) account
 - Access to your Elastic Cloud deployment
 
 To view stack trace logs, follow these steps:
@@ -18,7 +18,7 @@ To view stack trace logs, follow these steps:
 1. Go to the APEX Cloud Elastic Cloud deployment: <br>
     https://gvt-gds-apex-apex-stg.kb.ap-southeast-1.aws.found.io/. 
 
-1. [Log in with TechPass](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass). The Elastic Cloud dashboard is displayed. 
+1. Log in with [TechPass](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass). The Elastic Cloud dashboard is displayed. 
 
 1. From the Spaces menu, select your agency space.
 
