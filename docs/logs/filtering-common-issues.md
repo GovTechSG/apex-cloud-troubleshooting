@@ -17,7 +17,7 @@ For example:<br>
 
 ### List of common issues
 
-Use any of the common issues below as values for the **message** parameter .
+Use any of the common issues below as values for the **message** parameter.
 
 - Filter that caused failure
 - Unable to find Key ID in JWKS
