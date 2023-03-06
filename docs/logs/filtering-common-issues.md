@@ -4,7 +4,7 @@ To filter the stack trace logs by the most common issues, use the query below.
 
 ## Prerequisite
 
-You need to complete the steps in [Viewing stack trace](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/docs/logs/viewing-stack-trace).
+You need to [generate the stack trace related to the issue](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/docs/logs/viewing-stack-trace).
 
 ## Query syntax
 
