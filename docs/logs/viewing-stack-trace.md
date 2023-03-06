@@ -50,6 +50,8 @@ To view stack trace logs, follow these steps:
 
 1. Open the data view dropdown, and select the **apigw-traffic-trace** data view.
 
+    ![View the stack trace](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/stack-trace.png)
+
 1. On the KQL search field, enter a query for the correlation ID parameter obtained in the previous steps.
 
     For example, `correlationId : ac25ff63feabb71075ce47f5`
@@ -63,7 +65,11 @@ To view stack trace logs, follow these steps:
     - **correlationId**
     - **message**
 
-1. Browse through the list and review the logs in the **message** column to see the sequence of method calls and diagnose any issues. Analyze the stack trace to identify the specific line of code that caused the error or exception
+    ![Stack trace fields](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/stack-trace-fields.png ":size=150")
+
+1. Browse through the list and review the logs in the **message** column to see the sequence of method calls and diagnose any issues. Analyze the stack trace to identify the specific line of code that caused the error or exception.
+
+    ![Stack trace messages](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/stack-trace-messages.png ":size=150")
 
 ### Next steps
 
