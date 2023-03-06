@@ -16,6 +16,8 @@ On the KQL search field, enter a combined query for the following parameters:
 For example:<br>
 `correlationId : "2127f7633adaffa5bae26858" AND message : "Filter that caused failure"`
 
+![Common issues](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/common-issues.png ":size=243")
+
 ### Common issues
 
 Use any of the common issues below as values for the **message** parameter .
