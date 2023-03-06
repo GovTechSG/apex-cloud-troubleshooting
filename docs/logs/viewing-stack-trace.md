@@ -8,15 +8,6 @@ You need:
 - Access to your Elastic Cloud deployment
 
 To view stack trace logs, follow these steps:
-<!--
-logging in?
-Navigating to "space"?
-
-Questions:
-- are we sharing the staging link to Elastic platform? or is there a prod link?
-- what if user is not a public officer (corppass account)? how do they log in? or only publishers so TP accounts only
-- agency users - do they see all the spaces or do they go to a default space?
--->
 
 - [Step 1: Identify the correlation ID of the problematic API request](#step-1-identify-the-correlation-id-of-the-problematic-api-request)
 - [Step 2: Display the stack traces that correspond to the correlation ID](#step-2-display-the-stack-traces-that-correspond-to-the-correlation-id)
@@ -26,7 +17,9 @@ Questions:
 
 1. Go to the APEX Cloud Elastic Cloud Platform: https://gvt-gds-apex-apex-stg.kb.ap-southeast-1.aws.found.io/. 
 
-1. Log in with TechPass. The Elastic Cloud dashboard is displayed. 
+1. [Log in with TechPass](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass). The Elastic Cloud dashboard is displayed. 
+
+1. From the Spaces menu, select your agency space.
 
 1. Click the hamburger icon menu on the upper left of the dashboard. The sidebar menu is displayed. 
 
@@ -37,8 +30,8 @@ Questions:
 1. Click the time range icon, and select a time range. 
 
 1. On the KQL search field, enter a combined query for the following parameters:
-    - `http.uri` - Refers to the API base path.
-    - `processinfo.gatewayName` - Can be external (internet) or internal (intranet).
+    - **http.uri** - Refers to the API base path.
+    - **processinfo.gatewayName** - Can be external (internet) or internal (intranet).
 
     For example: `http.uri: \nyp-ioc-ip and processinfo.gatewayName  : External`
 
@@ -46,7 +39,7 @@ Questions:
 
 1. Browse through the logs and identify the problematic API request.
 
-1. Copy the `correlationId` value of the problematic API request.
+1. Copy the **correlationId** value of the problematic API request.
 
 ## Step 2: Display the stack traces that correspond to the correlation ID
 
@@ -61,9 +54,9 @@ Questions:
 ## Step 3: Review the strack trace logs 
 
 1. From the list of **Available fields**, add the following fields as columns in the document table to simplify your view:
-    - `timestamp`
-    - `correlationId`
-    - `message`
+    - **timestamp**
+    - **correlationId**
+    - **message**
 
 1. Browse through the list and review the logs in the **message** column to see the sequence of method calls and diagnose any issues. Analyze the stack trace to identify the specific line of code that caused the error or exception
 
