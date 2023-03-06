@@ -21,6 +21,9 @@ To view stack trace logs, follow these steps:
 
 1. From the Spaces menu, select your agency space.
 
+    ![Select your space](docs/images/login-spaces.png) 
+    ![Discover](docs/images/discover.png)
+
 1. Click the hamburger icon menu on the upper left of the dashboard. The sidebar menu is displayed. 
 
 1. Under the Analytics category, click **Discover**. 
@@ -36,6 +39,8 @@ To view stack trace logs, follow these steps:
     For example: `http.uri: \nyp-ioc-ip and processinfo.gatewayName  : External`
 
 1. Submit the query. A list of logs that match the query are displayed in the document table. 
+
+    ![Find the correlation ID](docs/images/find-correlation-ID.png)
 
 1. Browse through the logs and identify the problematic API request.
 
