@@ -20,15 +20,15 @@ To view stack trace logs, follow these steps:
 
 1. Log in with [TechPass](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass). The Elastic Cloud dashboard is displayed. 
 
-1. From the Spaces menu, select your agency space.
+1. From the Spaces menu, select your project space.
 
     ![Select your space](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/login-spaces.png ":size=230") 
 
-1. Click the hamburger icon menu on the upper left of the dashboard, and under the Analytics category, click **Discover**. 
+1. From the menu on the upper left of the dashboard, navigate to the Analytics category and click **Discover**. 
 
     ![Discover](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/discover.png ":size=150")
 
-1. In Discover, open the data view dropdown, and select the **apigw-traffic-summary** data view. The traffic summary is displayed.
+1. In Discover, select the **apigw-traffic-summary** data view. The traffic summary is displayed.
 
     ![Find the correlation ID](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/find-correlation-ID.png)
 
