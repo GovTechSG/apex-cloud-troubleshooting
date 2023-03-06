@@ -20,5 +20,5 @@ For example:<br>
 
 Use any of the common issues below as values for the **message** parameter .
 
-- `Filter that caused failure` 
-- `Unable to find Key ID in JWKS`
+- Filter that caused failure
+- Unable to find Key ID in JWKS

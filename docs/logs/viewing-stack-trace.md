@@ -60,16 +60,13 @@ To view stack trace logs, follow these steps:
 
 ## Step 3: Review the strack trace logs 
 
-1. From the list of **Available fields**, add the following fields as columns in the document table to simplify your view:
-    - **timestamp**
-    - **correlationId**
-    - **message**
+1. From the list of **Available fields**, add the **timestamp**, **correlationId**, and **message** fields to the document table to simplify your view: 
 
-    ![Stack trace fields](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/stack-trace-fields.png ":size=150")
+    ![Stack trace fields](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/stack-trace-fields.png ":size=343")
 
 1. Browse through the list and review the logs in the **message** column to see the sequence of method calls and diagnose any issues. Analyze the stack trace to identify the specific line of code that caused the error or exception.
 
-    ![Stack trace messages](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/stack-trace-messages.png ":size=150")
+    ![Stack trace messages](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/stack-trace-messages.png)
 
 ### Next steps
 
