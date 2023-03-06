@@ -22,8 +22,8 @@ To view stack trace logs, follow these steps:
 
 1. From the Spaces menu, select your agency space.
 
-    ![Select your space](images/login-spaces.png) 
-    ![Discover](images/discover.png)
+    ![Select your space](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/login-spaces.png) 
+    ![Discover](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/discover.png)
 
 1. Click the hamburger icon menu on the upper left of the dashboard. The sidebar menu is displayed. 
 
@@ -41,7 +41,7 @@ To view stack trace logs, follow these steps:
 
 1. Submit the query. A list of logs that match the query are displayed in the document table. 
 
-    ![Find the correlation ID](images/find-correlation-ID.png)
+    ![Find the correlation ID](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/find-correlation-ID.png)
 
 1. Browse through the logs and identify the problematic API request.
 
