@@ -1,4 +1,4 @@
-# Viewing stack trace
+# Debugging API issues
 
 You can check the stack trace of a problematic API request to see any errors or exceptions that occurred. 
 
