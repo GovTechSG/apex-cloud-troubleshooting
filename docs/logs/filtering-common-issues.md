@@ -1,3 +1,5 @@
+<!-- 
+
 # Filtering common issues
 
 To filter the stack trace logs by the most common issues, use the query below.
@@ -21,3 +23,5 @@ Use any of the common issues below as values for the **message** parameter.
 
 - Filter that caused failure
 - Unable to find Key ID in JWKS
+
+-->
