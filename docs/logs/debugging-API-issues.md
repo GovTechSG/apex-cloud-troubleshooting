@@ -52,23 +52,29 @@ You need:
 
 To debug a specific API request, you can use the available filters in the dashboard to narrow down the data displayed in the panels.
 
+![Select dashboard filters](/images/dashboard-filters.png) 
+
 | Filter | Description | Used for |
 | --- | -- | -- |
-| **Time range** | Specifies the time range that the API was processed. | All panels
-| **CorrelationID** | Filters or identifies a specific API request in a query. | All panels
-| **Gateway** | Filters the gateway type by either **internal** or **external** values. | Traffic Summary panel
-| **API Final Status** | Filters the status of the request by either **Pass** or **Fail** values. | Traffic Summary panel
-| **Log level** | Filters by the log levels in the Traffic Trace panel. | Traffic trace panel |
+| **(1) Time range** | Specifies the time range that the API was processed. | All panels
+| **(2) CorrelationID** | Filters or identifies a specific API request in a query. | All panels
+| **(3) Gateway** | Filters the gateway type by either **internal** or **external** values. | Traffic Summary panel
+| **(4) API Final Status** | Filters the status of the request by either **Pass** or **Fail** values. | Traffic Summary panel
+| **(5) Log level** | Filters by the log levels in the Traffic Trace panel. | Traffic trace panel |
 
 1. On your Traffic Trace dashboard, use the **Time range**, **Gateway**, and **API Final Status** filters to narrow down the list of API requests in the Traffic Summary panel.
 
 1. Browse through the list of API requests in the Traffic Summary panel, and copy the **Correlation ID** of the problematic request.
-    > Note: You can also hover over the Correlation ID entry and  click the (+) icon to filter the results by that value.
+
+    ![copy correlation ID](/images/dashboard-correlationid.png) 
+
+    > Note: You can also hover over the Correlation ID entry and  click the (**+**) icon to filter the results by that value.
 
 1. In the Correlation ID filter, paste the value of the Correlation ID that you copied in the previous step, which corresponds to the problematic API request.
+    ![paste correlation ID](/images/dashboard-correlationid-filter.png) 
 
 1. View the Traffic Trace panel and check the details in the message column to trace the root cause of the error or issue.
-
+    ![traffic-trace-message](/images/dashboard-trace-error.png) 
 
 <!-- >
 1. Configure the following filters as needed.
