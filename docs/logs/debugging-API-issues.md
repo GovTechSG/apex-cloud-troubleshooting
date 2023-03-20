@@ -1,13 +1,23 @@
 # Debugging API issues
 
-To debug a problematic API request, you can trace the request using its **Correlation ID**. When an API request is made, a unique Correlation ID is generated and attached to the request message. By tracing the Correlation ID through the system, you can  pinpoint the source of the error or issue and identify the root cause of the problem.
+To debug a problematic API request, you can trace the request using its **Correlation ID**. 
 
-The Traffic Trace dashboard displays a list of the correlation IDs and the details of each API request. The dashboard consists of three panels.
+When an API request is made, a unique Correlation ID is generated and attached to the request message. By tracing the Correlation ID and view the logs related to that ID, you can  pinpoint the source of the error or issue and identify the root cause of the problem.
+
+The **Traffic Trace Dashboard** helps you view and filter the list of the Correlation IDs and the details of each API request. 
+
+<figure style="text-align: center">
+  <img
+    src="/images/dashboard-traffic-trace.png"/>
+	  <figcaption>Fig 1: Traffic Trace Dashboard</figcaption>
+</figure>
+
+The dashboard consists of three panels.
 
 | Panel | Description |
 | --- | --- |
 | **Traffic Summary** | Lists all the Correlation IDs that occurred in a specific time range. The API requests listed by their Correlation ID, which identifies a specific API request or response. |
-| **Traffic Details** | Shows the detailed results of the queried API endpoints via CorrelationID. The details can determine whether an API call is bridging, such as when the **sentHeader** column returns 2 CorrelationID |
+| **Traffic Details** | Shows the detailed results of the queried API endpoints. The details can determine whether an API call is bridging, such as when the **sentHeader** column returns two Correlation IDs. |
 | **Traffic Trace** | Shows the trace level for the  queried API. The details provided in this panel are used to debug the API request.
 
 
@@ -32,21 +42,23 @@ You need:
 1. From the Spaces menu, select your project space.
 
 1. From the main menu, go to the Analytics category and click **Dashboard**. A list of available dashboards are displayed in the Dashboards page.
+ 
+    ![Select dashboard menu](/images/dashboard-menu.png) 
 
 1. From the list of dashboards, click **Traffic trace**. The Traffic Trace dashboard is displayed.
 
 
-
-
-## Step 2: Use the traffic trace dashboard
+## Step 2: Use the Traffic Trace dashboard
 
 To debug a specific API request, you can use the available filters in the dashboard to narrow down the data displayed in the panels.
 
-a. **Time range** - Specifies the time range that the API was processed.<br>
-b. **CorrelationID** - Filters or identifies a specific API request in a query. <br>
-c. **Gateway** - Filters the gateway type by either **internal** or **external** values.<br>
-d. **API Final Status**- Filters the status of the request by either **Pass** or **Fail** values.<br>
-e. **Log level** - Filters by the log levels in the Traffic Trace panel. <br>
+| Filter | Description | Used for |
+| --- | -- | -- |
+| **Time range** | Specifies the time range that the API was processed. | All panels
+| **CorrelationID** | Filters or identifies a specific API request in a query. | All panels
+| **Gateway** | Filters the gateway type by either **internal** or **external** values. | Traffic Summary panel
+| **API Final Status** | Filters the status of the request by either **Pass** or **Fail** values. | Traffic Summary panel
+| **Log level** | Filters by the log levels in the Traffic Trace panel. | Traffic trace panel |
 
 1. On your Traffic Trace dashboard, use the **Time range**, **Gateway**, and **API Final Status** filters to narrow down the list of API requests in the Traffic Summary panel.
 
@@ -61,11 +73,11 @@ e. **Log level** - Filters by the log levels in the Traffic Trace panel. <br>
 <!-- >
 1. Configure the following filters as needed.
 
-    a. **Time range** - Specifies the time range that the API was processed.<br>
-    b. **CorrelationID** - Filters or identifies a specific API request in a query. <br>
-    c. **Gateway** - Filters the gateway type by either **internal** or **external** values.<br>
-    d. **API Final Status**- Filters the status of the request by either **Pass** or **Fail** values.<br>
-    e. **Log level** - Filters by the log levels in the Traffic Trace panel. <br>
+a. **Time range** - Specifies the time range that the API was processed.<br>
+b. **CorrelationID** - Filters or identifies a specific API request in a query. <br>
+c. **Gateway** - Filters the gateway type by either **internal** or **external** values.<br>
+d. **API Final Status**- Filters the status of the request by either **Pass** or **Fail** values.<br>
+e. **Log level** - Filters by the log levels in the Traffic Trace panel. <br>
 
     **Notes:**
     - If you already selected a specific request using the  Correlation ID filter, clear the rest of the filters.
