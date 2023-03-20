@@ -8,7 +8,7 @@ The **Traffic Trace Dashboard** helps you view and filter the list of the Correl
 
 <figure style="text-align: center">
   <img
-    src="/images/dashboard-traffic-trace.png"/>
+    src="https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/dashboard-traffic-trace.png"/>
 	  <figcaption>Fig 1: Traffic Trace Dashboard</figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ You need:
 
 ## Step 1: View the Traffic Trace dashboard
 
-1. Access your Elastic Cloud deployment: https://gvt-gds-apex-apex-stg.kb.ap-southeast-1.aws.found.io/.
+1. Access your Elastic Cloud deployment: https://gvt-gds-apex-apex-stg.kb.ap-southeast-1.aws.found.io.
 
 1. Log in with [TechPass](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass). The Elastic Cloud dashboard is displayed. 
 

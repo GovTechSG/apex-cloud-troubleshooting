@@ -1,7 +1,7 @@
 
 - [Overview](docs/home.md)
 
-- [Debugging API issues](/docs/logs/debugging-API-issues.md.md)
+- [Debugging API issues](/docs/logs/debugging-API-issues.md)
 
 - [Contact us](/docs/contact-us.md)
 
