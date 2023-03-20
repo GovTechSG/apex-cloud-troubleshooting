@@ -76,7 +76,7 @@ You can use the available filters in the dashboard to narrow down the data displ
 1. In the Correlation ID filter, paste the value of the Correlation ID that you copied in the previous step, which corresponds to the problematic API request.
     ![paste correlation ID](/images/dashboard-correlationid-filter.png) 
 
-1. View the Traffic Trace panel and check the details in the message column to trace the root cause of the error or issue.
+1. Scroll down to the Traffic Trace panel and check the details in the message column to trace the root cause of the error or issue.
     ![traffic-trace-message](/images/dashboard-trace-error.png) 
 
 <!-- >
