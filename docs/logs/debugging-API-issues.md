@@ -64,13 +64,14 @@ You can use the available filters in the dashboard to narrow down the data displ
 
 **To use the filters to debug a specific API request**
 
-1. On your Traffic Trace dashboard, use the **Time range**, **Gateway**, and **API Final Status** filters to narrow down the list of API requests in the Traffic Summary panel.
+1. On your Traffic Trace dashboard, configure the **Time range**, **Gateway**, and **API Final Status** filters to narrow down the list of API requests in the Traffic Summary panel.
+    > **Note:** You can also skip this step and proceed to browse the list of API requests in the Traffic Summary panel within the specified time range.
 
 1. Browse through the list of API requests in the Traffic Summary panel, and copy the **Correlation ID** of the problematic request.
 
     ![copy correlation ID](/images/dashboard-correlationid.png) 
 
-    > Note: You can also hover over the Correlation ID entry and  click the (**+**) icon to filter the results by that value.
+    > **Note:** You can also hover over the Correlation ID entry and  click the (**+**) icon to filter the results by that value.
 
 1. In the Correlation ID filter, paste the value of the Correlation ID that you copied in the previous step, which corresponds to the problematic API request.
     ![paste correlation ID](/images/dashboard-correlationid-filter.png) 
