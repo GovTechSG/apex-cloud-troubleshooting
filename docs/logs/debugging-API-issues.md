@@ -50,7 +50,7 @@ You need:
 
 ## Step 2: Use the Traffic Trace dashboard
 
-To debug a specific API request, you can use the available filters in the dashboard to narrow down the data displayed in the panels.
+You can use the available filters in the dashboard to narrow down the data displayed in the panels.
 
 ![Select dashboard filters](/images/dashboard-filters.png) 
 
@@ -61,6 +61,8 @@ To debug a specific API request, you can use the available filters in the dashbo
 | **(3) Gateway** | Filters the gateway type by either **internal** or **external** values. | Traffic Summary panel
 | **(4) API Final Status** | Filters the status of the request by either **Pass** or **Fail** values. | Traffic Summary panel
 | **(5) Log level** | Filters by the log levels in the Traffic Trace panel. | Traffic trace panel |
+
+**To use the filters to debug a specific API request**
 
 1. On your Traffic Trace dashboard, use the **Time range**, **Gateway**, and **API Final Status** filters to narrow down the list of API requests in the Traffic Summary panel.
 
