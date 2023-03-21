@@ -71,7 +71,7 @@ You can use the available filters in the dashboard to narrow down the data displ
 **To use the filters to debug a specific API request**
 
 1. On your Traffic Trace dashboard, configure the **Time range**, **Gateway**, and **API Final Status** filters to narrow down the list of API requests in the Traffic Summary panel.
-    > **Note:** You can also skip this step and proceed to browse the list of API requests in the Traffic Summary panel within the specified time range.
+    > **Note:** You can choose to skip this step and proceed to browse the list of API requests in the Traffic Summary panel. These requests will be sorted based on the default time range that was set in your dashboard.
 
 1. Browse through the list of API requests in the Traffic Summary panel, and copy the **Correlation ID** of the problematic request.
 
@@ -153,7 +153,7 @@ e. **Log level** - Filters by the log levels in the Traffic Trace panel. <br>
 
     ![Stack trace fields](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/stack-trace-fields.png ":size=220")
 
-1. Browse through the list and review the logs in the **message** column to see the sequence of method calls and diagnose any issues. Analyze the stack trace to identify the specific line of code that caused the error or exception.
+1. Browse through the list and review the logs in the **message** column to see the sequence of method calls and diagnose any issues. Analyse the stack trace to identify the specific line of code that caused the error or exception.
 
     ![Stack trace messages](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/stack-trace-messages.png)
 
@@ -228,7 +228,7 @@ To view stack trace logs, follow these steps:
 
     ![Stack trace fields](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/stack-trace-fields.png ":size=220")
 
-1. Browse through the list and review the logs in the **message** column to see the sequence of method calls and diagnose any issues. Analyze the stack trace to identify the specific line of code that caused the error or exception.
+1. Browse through the list and review the logs in the **message** column to see the sequence of method calls and diagnose any issues. Analyse the stack trace to identify the specific line of code that caused the error or exception.
 
     ![Stack trace messages](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/stack-trace-messages.png)
 
