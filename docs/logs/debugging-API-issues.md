@@ -37,7 +37,11 @@ You need:
 
 ## Step 1: View the Traffic Trace dashboard
 
-1. Access your Elastic Cloud deployment: https://gvt-gds-apex-apex-stg.kb.ap-southeast-1.aws.found.io.
+1. Access your StackOps account.
+
+    **Production:** [go.gov.sg/apex-report](http://go.gov.sg/apex-report)<br>
+    **Staging** [go.gov.sg/apex-report-stg](http://go.gov.sg/apex-report-stg)
+
 
 1. Log in with [TechPass](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass). The Elastic Cloud dashboard is displayed. 
 
