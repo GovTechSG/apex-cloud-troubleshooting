@@ -26,8 +26,9 @@ The dashboard consists of three panels.
 To debug an API issue using the Traffic Trace dashboard, follow these steps:
 
 - [Fulfill the prerequisites](#prerequisites)
-- [Step 1: View the traffic trace dashboard](#step-1-view-the-traffic-trace-dashboard)
-- [Step 2: Use the traffic trace dashboard](#step-2-use-the-traffic-trace-dashboard)
+- [Step 1: View the Traffic Trace dashboard](#step-1-view-the-traffic-trace-dashboard)
+- [Step 2: Find the Correlation ID](#step-2-find-the-correlation-id)
+- [Step 3: View the traffic trace](#step-3-view-the-traffic-trace)
 
 ## Prerequisites
 You need:
@@ -76,7 +77,7 @@ You can use the available filters in the dashboard to narrow down the data displ
 
     > **Note:** You can also hover over the Correlation ID entry and  click the (**+**) icon to filter the results by that value.
 
-## Step 3: Use Traffic Trace to debug
+## Step 3: View the traffic trace
 1. Clear any filters that you used to find the Correlation ID.
 
 1. In the Correlation ID filter, paste the value of the Correlation ID that corresponds to the problematic API request.
