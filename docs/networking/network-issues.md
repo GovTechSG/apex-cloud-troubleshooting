@@ -14,7 +14,7 @@ If at least one of the testing methods is successful, it indicates that the netw
 Select the appropriate environment in the tabs below to view the sample code to test the network connectivity using cURL.
 
 <!-- tabs:start -->
-### Staging Intranet
+### **Staging Intranet**
 
 On an intranet machine, use the sample code below.
 
@@ -26,7 +26,7 @@ The connection is successful when an **ok status**  is returned as shown in the 
 
 /image 1/
 
-### Staging Internet
+### **Staging Internet**
 
 On an internet machine, use the sample code below.
 
@@ -38,7 +38,7 @@ The connection is successful when an **ok status**  is returned as shown in the 
 
 /image 2/
 
-### Production Intranet
+### **Production Intranet**
 
 On an intranet machine, use the sample code below.
 
@@ -50,7 +50,7 @@ The connection is successful when an **ok status**  is returned as shown in the 
 
 / image 3 /
 
-### Production Internet
+### **Production Internet**
 
 On an internet machine, use the sample code below.
 
@@ -79,7 +79,7 @@ The connection is successful when an **ok status**  is returned as shown in the 
 
 /image 1/
 
-### Staging Internet
+### **Staging Internet**
 
 Use Browser to hit the url: 
 https://public-stg.api.gov.sg/healthcheck
@@ -88,7 +88,7 @@ The connection is successful when an **ok status**  is returned as shown in the 
 
 /image 2/
 
-### Production Intranet
+### **Production Intranet**
 
 Use Browser to hit the url: https://gw.int.api.gov.sg/healthcheck
 
@@ -96,7 +96,7 @@ The connection is successful when an **ok status**  is returned as shown in the 
 
 /image 3/
 
-### Production Internet
+### **Production Internet**
 
 Use Browser to hit the url: https://public.api.gov.sg/healthcheck 
 
