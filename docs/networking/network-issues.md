@@ -1,4 +1,4 @@
-# Troubleshooting network issues
+# Debugging network issues
 
 To diagnose any network issues, you can perform a network connectivity test on your server. This test should be performed from the same zone, either **internet** or **intranet**, from which you are making API requests.
 
