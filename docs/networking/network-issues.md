@@ -70,7 +70,7 @@ Select the appropriate environment in the tabs below to view the sample code to 
 
 <!-- tabs:start -->
 
-### Staging Intranet
+### **Staging Intranet**
 
 Use Browser to hit the url:
  https://gw-stg.int.api.gov.sg/healthcheck
