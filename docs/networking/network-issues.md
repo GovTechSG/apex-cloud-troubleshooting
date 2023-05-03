@@ -22,9 +22,9 @@ On an intranet machine, use the sample code below.
 curl -kvv https://gw-stg.int.api.gov.sg/healthcheck 
 ```
 
-The connection is successful when an **ok status**  is returned as shown in the screenshot below.
+The connection is successful when an **ok status** is returned as shown in the screenshot below.
 
-/image 1/
+![staging intranet with curl](/images/network-curl-staging-intranet.png)
 
 ### **Staging Internet**
 
@@ -34,9 +34,9 @@ On an internet machine, use the sample code below.
 curl -kvv https://public-stg.api.gov.sg/healthcheck
 ```
 
-The connection is successful when an **ok status**  is returned as shown in the screenshot below.
+The connection is successful when an **ok status** is returned as shown in the screenshot below.
 
-/image 2/
+![staging internet with curl](/images/network-curl-staging-internet.png)
 
 ### **Production Intranet**
 
@@ -48,7 +48,7 @@ curl -kvv https://gw.int.api.gov.sg/healthcheck
 
 The connection is successful when an **ok status**  is returned as shown in the screenshot below.
 
-/ image 3 /
+![production intranet with curl](/images/network-curl-prod-intranet.png)
 
 ### **Production Internet**
 
@@ -60,7 +60,7 @@ curl -kvv https://public.api.gov.sg/healthcheck
 
 The connection is successful when an **ok status**  is returned as shown in the screenshot below.
 
-/ image 4 /
+![production internet with curl](/images/network-curl-prod-internet.png)
 
 <!-- tabs:end -->
 
@@ -72,37 +72,35 @@ Select the appropriate environment in the tabs below to view the sample code to 
 
 ### **Staging Intranet**
 
-Use Browser to hit the url:
- https://gw-stg.int.api.gov.sg/healthcheck
+In your browser, open this URL: https://gw-stg.int.api.gov.sg/healthcheck
 
-The connection is successful when an **ok status**  is returned as shown in the screenshot below.
+The connection is successful when an **ok status** is returned as shown in the screenshot below.
 
-/image 1/
+![staging intranet with browser](/images/network-browser-staging-intranet.png)
 
 ### **Staging Internet**
 
-Use Browser to hit the url: 
-https://public-stg.api.gov.sg/healthcheck
+In your browser, open this URL: https://public-stg.api.gov.sg/healthcheck
 
-The connection is successful when an **ok status**  is returned as shown in the screenshot below.
+The connection is successful when an **ok status** is returned as shown in the screenshot below.
 
-/image 2/
+![production internet with curl](/images/network-browser-staging-internet.png)
 
 ### **Production Intranet**
 
-Use Browser to hit the url: https://gw.int.api.gov.sg/healthcheck
+In your browser, open this URL: https://gw.int.api.gov.sg/healthcheck
 
-The connection is successful when an **ok status**  is returned as shown in the screenshot below.
+The connection is successful when an **ok status** is returned as shown in the screenshot below.
 
-/image 3/
+![production internet with curl](/images/network-browser-prod-intranet.png)
 
 ### **Production Internet**
 
-Use Browser to hit the url: https://public.api.gov.sg/healthcheck 
+In your browser, open this URL: https://public.api.gov.sg/healthcheck 
 
-The connection is successful when an **ok status**  is returned as shown in the screenshot below.
+The connection is successful when an **ok status** is returned as shown in the screenshot below.
 
-/image 4/
+![production internet with curl](/images/network-browser-prod-internet.png)
 
 
 <!-- tabs:end -->
