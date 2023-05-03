@@ -4,12 +4,12 @@ To diagnose any network issues, you can perform a network connectivity test on y
 
 There are two methods to perform the network connectivity test:
 
-- Using the command line with cURL
-- Accessing through a browser
+- [Using the terminal with cURL](#test-using-the-terminal-with-curl)
+- [Test using a browser](#test-using-a-browser)
 
 If at least one of the testing methods is successful, it indicates that the network connectivity is working as expected.
 
-## Test using the command line with cURL
+## Test using the terminal with cURL
 
 Select the appropriate environment in the tabs below to view the sample code to test the network connectivity using cURL.
 
