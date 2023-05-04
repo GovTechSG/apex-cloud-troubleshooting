@@ -3,7 +3,7 @@
 
 - [Debugging API issues](/docs/logs/debugging-API-issues.md)
 
-- [Debugging Network issues](/docs/networking/network-issues.md)
+- [Debugging network issues](/docs/networking/network-issues.md)
 
 - [Contact us](/docs/contact-us.md)
 
