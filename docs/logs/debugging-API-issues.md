@@ -4,8 +4,6 @@ To debug a problematic API request, you can trace the request using its **Correl
 
 When an API request is made, a unique Correlation ID is generated and attached to the request message. By tracing the Correlation ID and view the logs related to that ID, you can  pinpoint the source of the error or issue and identify the root cause of the problem.
 
-### Traffic Trace Dashboard
-
 The Traffic Trace Dashboard helps you view and filter the list of the Correlation IDs and the details of each API request. 
 
 <figure style="text-align: center">
