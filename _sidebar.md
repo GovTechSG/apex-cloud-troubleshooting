@@ -1,11 +1,11 @@
 
 - [Overview](docs/home.md)
-- API issues
+**API issues**
     - [API requests](/docs/logs/debugging-API-issues.md)
-- Networking issues
+**Networking issues**
     - [Network connectivity](/docs/networking/network-issues.md)
     - [TLS support](/docs/networking/tls-support.md)
-- Support
+**Support**
     - [Contact us](/docs/contact-us.md)
 
 <!-- 
