@@ -2,11 +2,9 @@
 
 To troubleshoot SSL/TLS errors, ensure that your system supports the TLS protocol and cipher suites that are supported by APEX Cloud.
 
-To retrieve a list of available cipher suites on your system, run the following PowerShell command:
+1. To retrieve a list of available cipher suites on your system, run the following **PowerShell** command: `Get-TlsCipherSuite | ft Name`
 
-`Get-TlsCipherSuite | ft Name`
-
-Next, you can refer to the table below to see which TLS protocol and cipher suites APEX Cloud supports. 
+2. Next, you can refer to the table below to see which TLS protocol and cipher suites APEX Cloud supports. 
 
 | TLS Protocol Version | TLS Cipher Suites |
 | -- | -- |
