@@ -1,5 +1,5 @@
 
-- [Overview](docs/home.md)
+
 **API issues**
 - [API requests](/docs/logs/debugging-API-issues.md)
 **Networking issues**

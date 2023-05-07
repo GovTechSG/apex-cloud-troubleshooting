@@ -4,7 +4,7 @@ This guide provides steps for diagnosing and fixing any issues that you might en
 
 Use the navigation menu on the left to browse the documentation. 
 
-### Audience
+**Audience**
 
 This documentation is intended for APEX Cloud API Publishers and Consumers.
 
