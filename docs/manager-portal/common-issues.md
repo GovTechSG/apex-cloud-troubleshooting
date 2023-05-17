@@ -2,6 +2,8 @@
 
 In this section, you will find a list of common issues that mighe be encountered in the API Manager Portal and the corresponding steps to resolve each issue. 
 
+?> Note: You can use the right sidebar to navigate through the list of common issues.
+
 <!-- 
 - [I cannot find any APIs/APPs](#no-apps)
 - [Issue 2: ]
