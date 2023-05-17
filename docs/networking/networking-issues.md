@@ -2,8 +2,8 @@
 
 ## General network issues
 
-[General network issues](/snippets/network-issues.md':include')
+[General network issues](/netowrking/snippets/network-issues.md':include')
 
 ## SSL/TLS issues
 
-[SSL/TLS issues](/snippets/tls-support.md':include')
+[SSL/TLS issues](/networking/snippets/tls-support.md':include')
