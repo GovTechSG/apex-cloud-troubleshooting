@@ -2,14 +2,16 @@
 
 If you encounter errors during the JWT authentication process, you can take note of the error code defined in the error and refer to the tables below to help you get more information on the root cause of the error.
 
-[Pre-Authentication Errors](#pre-authentication-errors)
-[Authentication Errors](#authentication-errors)
-[Post-Authentication Errors](#post-authentication-errors)
+- [Pre-Authentication Errors](#pre-authentication-errors)
+- [Authentication Errors](#authentication-errors)
+- [Post-Authentication Errors](#post-authentication-errors)
 [Security Errors](#security-errors)
 
-**Notes:**<br>
-**+** - Test not scripted<br>
-<b>**</b> - Consider validation checks
+**Legend:**<br>
+(**+**) - Test not scripted<br>
+(<b>**</b>) - Consider validation checks
+
+?> **Note:** You can collapse the left sidebar navigation for a better view of the tables.
 
 ## Pre-Authentication Errors
 
