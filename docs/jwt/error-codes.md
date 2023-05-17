@@ -35,7 +35,7 @@ If you encounter errors during the JWT authentication process, you can take note
 | 400 | Bad Request | JWKS not provided for cross-zone+ |  |  |
 | 400 | Bad Request | AUD not provided for cross-zone+ |  |  |
 
-# Authentication Errors
+## Authentication Errors
 
 | Error Code | Error Name | Error / Issue | Tested Result (Code / Error Body) | Comments |
 |---|---|---|---|---|
