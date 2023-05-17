@@ -12,7 +12,7 @@ If at least one of the testing methods is successful, it indicates that the netw
 Select the appropriate environment in the tabs below to view the sample code to test the network connectivity using cURL.
 
 <!-- tabs:start -->
-### **Staging Intranet**
+#### **Staging Intranet**
 
 On an intranet machine, use the sample code below.
 
@@ -24,7 +24,7 @@ The connection is successful when an **ok status** is returned as shown in the s
 
 ![staging intranet with curl](/images/network-curl-staging-intranet.png)
 
-### **Staging Internet**
+#### **Staging Internet**
 
 On an internet machine, use the sample code below.
 
@@ -36,7 +36,7 @@ The connection is successful when an **ok status** is returned as shown in the s
 
 ![staging internet with curl](/images/network-curl-staging-internet.png)
 
-### **Production Intranet**
+#### **Production Intranet**
 
 On an intranet machine, use the sample code below.
 
@@ -48,7 +48,7 @@ The connection is successful when an **ok status**  is returned as shown in the 
 
 ![production intranet with curl](/images/network-curl-prod-intranet.png)
 
-### **Production Internet**
+#### **Production Internet**
 
 On an internet machine, use the sample code below.
 
@@ -62,13 +62,13 @@ The connection is successful when an **ok status**  is returned as shown in the 
 
 <!-- tabs:end -->
 
-### Test using a browser
+#### Test using a browser
 
 Select the appropriate environment in the tabs below to view the sample code to test the network connectivity using a browser.
 
 <!-- tabs:start -->
 
-### **Staging Intranet**
+#### **Staging Intranet**
 
 In your browser, open this URL: https://gw-stg.int.api.gov.sg/healthcheck
 
@@ -76,7 +76,7 @@ The connection is successful when an **ok status** is returned as shown in the s
 
 ![staging intranet with browser](/images/network-browser-staging-intranet.png)
 
-### **Staging Internet**
+#### **Staging Internet**
 
 In your browser, open this URL: https://public-stg.api.gov.sg/healthcheck
 
@@ -92,7 +92,7 @@ The connection is successful when an **ok status** is returned as shown in the s
 
 ![production internet with curl](/images/network-browser-prod-intranet.png)
 
-### **Production Internet**
+#### **Production Internet**
 
 In your browser, open this URL: https://public.api.gov.sg/healthcheck 
 
