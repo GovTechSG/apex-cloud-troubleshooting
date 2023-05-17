@@ -63,7 +63,9 @@ You may refer to: [https://intranet.mof.gov.sg/portal/IM/Themes/IT-Management/Cl
 
 ## Unable to find any APIs or Apps
 
-**Issue:**  I am unable to find APIs or Apps
+**Issue:**  
+
+I am unable to find APIs or Apps.
 
 **Solution:**
 
@@ -95,7 +97,9 @@ For new APEX Cloud consumers, please visit the [APEX Cloud Onboarding Guide](htt
 
 ## Unable to edit the API
 
-**Issue:** An API in a published state cannot be modified. If publishers were to unpublish the API to make any changes to it, the API will lose the API to App relationship. This relationship can only be established again with the help of the consumer.  Without the API to App linkage being re-established,  API calls, which require inbound authentication on APEX Cloud, will fail.
+**Issue:** 
+
+An API in a published state cannot be modified. If publishers were to unpublish the API to make any changes to it, the API will lose the API to App relationship. This relationship can only be established again with the help of the consumer.  Without the API to App linkage being re-established,  API calls, which require inbound authentication on APEX Cloud, will fail.
 
 **Solution:**
 
@@ -103,7 +107,9 @@ For new APEX Cloud consumers, please visit the [APEX Cloud Onboarding Guide](htt
 
 ## Missing customised headers
 
-**Issue:** Customised headers are missing after calling APEX Cloud.
+**Issue:** 
+
+Customised headers are missing after calling APEX Cloud.
 
 **Solution:**
 

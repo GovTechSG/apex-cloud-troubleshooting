@@ -5,7 +5,7 @@ If you encounter errors during the JWT authentication process, you can take note
 - [Pre-Authentication Errors](#pre-authentication-errors)
 - [Authentication Errors](#authentication-errors)
 - [Post-Authentication Errors](#post-authentication-errors)
-[Security Errors](#security-errors)
+- [Security Errors](#security-errors)
 
 **Legend:**<br>
 (**+**) - Test not scripted<br>
