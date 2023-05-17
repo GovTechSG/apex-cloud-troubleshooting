@@ -1,14 +1,29 @@
+**General**
+- [API issues](docs/logs/debugging-API-issues.md)
+- [Networking issues](docs/networking/networking-issues.md)
+
+**API Manager Portal**
+- [Common issues](/docs/manager-portal/common-issues.md)
+
+**Support**
+- [Contact us](/docs/contact-us.md)
 
 
+
+
+<!-- 
 **API issues**
 - [API requests](/docs/logs/debugging-API-issues.md)
 **Networking issues**
 - [Network connectivity](/docs/networking/network-issues.md)
 - [TLS support](/docs/networking/tls-support.md)
+**API Manager Portal**
+- [Common issues](/docs/manager-portal/common-issues.md)
 **Support**
 - [Contact us](/docs/contact-us.md)
 
-<!-- 
+---------------------------------------------------------------------------
+
 - [Overview](docs/home.md)
 
 - [API logs](/docs/logs/api-logs.md)

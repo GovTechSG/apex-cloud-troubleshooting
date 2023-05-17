@@ -1,6 +1,6 @@
 # Common Issues in the API Manager Portal
 
-In this section, you will find a list of frequently askd questions that publishers encounter in the API Manager Portal, along with the corresponding steps to resolve each issue. 
+In this section, you will find a list of common issues that mighe be encountered in the API Manager Portal and the corresponding steps to resolve each issue. 
 
 <!-- 
 - [I cannot find any APIs/APPs](#no-apps)
@@ -61,9 +61,11 @@ You may refer to: [https://intranet.mof.gov.sg/portal/IM/Themes/IT-Management/Cl
 
 -->
 
-## I cannot find any APIs or Apps
+## Unable to find any APIs or Apps
 
-**Solution**
+**Issue:**  I am unable to find APIs or Apps
+
+**Solution:**
 
 Please ensure that you are managing the APIs or Apps at the correct environment/zone.
 
@@ -77,9 +79,14 @@ Once logged in to the desired APEX Cloud API Manager Portal, please switch to th
 ![Image](./image/docs-home-chng-org.png)
 
 
-## How to request for API access
+## Requesting for API access
 
-**Solution**
+**Issue:**
+
+As a consumer, how do I request for access to the API?
+
+**Solution:**
+
 If you are an existing APEX Cloud consumer, you can email the API publisher and request for access to be given to the organisation which needs to access the API.
 
 For new APEX Cloud consumers, please visit the [APEX Cloud Onboarding Guide](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/) for more information.
@@ -88,13 +95,17 @@ For new APEX Cloud consumers, please visit the [APEX Cloud Onboarding Guide](htt
 
 ## Unable to edit the API
 
-**Solution**
+**Issue:** An API in a published state cannot be modified. If publishers were to unpublish the API to make any changes to it, the API will lose the API to App relationship. This relationship can only be established again with the help of the consumer.  Without the API to App linkage being re-established,  API calls, which require inbound authentication on APEX Cloud, will fail.
 
-An API in a published state cannot be modified. If publishers were to unpublish the API to make any changes to it, this will cause the API to lost the API to APP relationship. This relationship can only be established again with the help of the consumer, without the API to APP linkage being re-establish API calls which requires inbound authentication on APEX Cloud will fail.
+**Solution:**
 
- We recommend publishers to create a new API to upgrade the original API to it. Publishers can refer to the [Update API](docs/publisher/update-api.md) workflow to make any changes to their API.
+ We recommend publishers to create a new API with the needed updates, and then upgrade the original API to the new API version. Publishers can refer to the [Update API](docs/publisher/update-api.md) workflow to make any changes to their API.
 
-## Customized headers are missing after calling APEX Cloud
+## Missing customised headers
+
+**Issue:** Customised headers are missing after calling APEX Cloud.
+
+**Solution:**
 
 API calls to APEX Cloud must conform to the regular expression `[-A-Za-z0-9]+` for any HTTP Header names. HTTP Headers with names that do not conform to the expression `[-A-Za-z0-9]+` will be considered as invalid HTTP headers and will be dropped, in accordance to IM8 Cloud Security Section Para 1.7 S6.
 
