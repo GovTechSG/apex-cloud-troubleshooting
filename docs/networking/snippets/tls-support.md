@@ -1,4 +1,4 @@
-**Solution**
+**Solution:**
 
 To troubleshoot SSL/TLS errors, ensure that your system supports the TLS protocol and cipher suites that are supported by APEX Cloud.
 
