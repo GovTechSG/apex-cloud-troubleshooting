@@ -11,8 +11,8 @@ To diagnose any network issues, you can perform a network connectivity test on y
 
 There are two methods to perform the network connectivity test:
 
-- [Test using cURL](#test-using-the-terminal-with-curl)
-- [Test using a browser](#test-using-a-browser)
+- [Option 1: Test using cURL](#test-using-the-terminal-with-curl)
+- [Option 2: Test using a browser](#test-using-a-browser)
 
 If at least one of the testing methods is successful, it indicates that the network connectivity is working as expected.
 
