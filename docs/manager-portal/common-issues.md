@@ -44,9 +44,7 @@ For new APEX Cloud consumers, please visit the [APEX Cloud Onboarding Guide](htt
 
 ## Missing customised headers
 
-**Issue:** 
-
-Customised headers are missing after calling APEX Cloud.
+**Issue:** Customised headers are missing after calling APEX Cloud.
 
 **Solution:**
 
