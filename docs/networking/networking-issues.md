@@ -5,6 +5,8 @@
 
 ## General network issues
 
+**Solution**
+
 To diagnose any network issues, you can perform a network connectivity test on your server. This test should be performed from the same zone, either **internet** or **intranet**, from which you are making API requests.
 
 There are two methods to perform the network connectivity test:
@@ -14,7 +16,7 @@ There are two methods to perform the network connectivity test:
 
 If at least one of the testing methods is successful, it indicates that the network connectivity is working as expected.
 
-### Test using the terminal with cURL
+### Option 1: Test using cURL
 
 Select the appropriate environment in the tabs below to view the sample code to test the network connectivity using cURL.
 
@@ -69,7 +71,7 @@ The connection is successful when an **ok status**  is returned as shown in the 
 
 <!-- tabs:end -->
 
-### Test using a browser
+### Option 2: Test using a browser
 
 Select the appropriate environment in the tabs below to view the sample code to test the network connectivity using a browser.
 
