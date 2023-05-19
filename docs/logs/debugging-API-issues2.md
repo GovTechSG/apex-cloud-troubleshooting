@@ -97,11 +97,14 @@ You can use the available filters in the dashboard to narrow down the data displ
 
 ## Verify the API request to the endpoint
 
-To verify that a client or application has made a request to the APEX Cloud API endpoint, you can check the value in the **X-Forwarded-For** header in the Traffic Details panel, under the **transactionElements.leg0.protocolInfo.recvHeader** column.
+To verify that a client or application has made a request to the APEX Cloud API endpoint, you can check the **X-Forwarded-For** header, which can be found under the **transactionElements.leg0.protocolInfo.recvHeader** column in the Traffic Details panel.
 
 ![traffic-trace-message](/images/dashboard-traffic-details-header.png) 
 
-**X-Forwarded-For:** usually contains the following values: `<client>, <proxy1>, <proxy2>`. The `<client>` value refers to the IP address of the application that initiated the API request to the APEX Cloud endpoint.
+**Syntax**<br>
+`X-Forwarded-For: <client>, <proxy1>, <proxy2>`
+
+The `<client>` value refers to the IP address of the application that initiated the API request to the APEX Cloud endpoint.
 
 
 
