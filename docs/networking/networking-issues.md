@@ -5,9 +5,7 @@
 
 ## General network issues
 
-**Solution**
-
-To diagnose any network issues, you can perform a network connectivity test on your server. This test should be performed from the same zone, either **internet** or **intranet**, from which you are making API requests.
+**Solution:** To diagnose any network issues, you can perform a network connectivity test on your server. This test should be performed from the same zone, either **internet** or **intranet**, from which you are making API requests.
 
 There are two methods to perform the network connectivity test:
 
@@ -114,9 +112,7 @@ The connection is successful when an **ok status** is returned as shown in the s
 
 ## SSL/TLS issues
 
-**Solution:**
-
-To troubleshoot SSL/TLS errors, ensure that your system supports the TLS protocol and cipher suites that are supported by APEX Cloud.
+**Solution:** To troubleshoot SSL/TLS errors, ensure that your system supports the TLS protocol and cipher suites that are supported by APEX Cloud.
 
 1. To retrieve a list of available cipher suites on your system, run the following **PowerShell** command: `Get-TlsCipherSuite | ft Name`
 
