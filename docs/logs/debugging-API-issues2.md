@@ -26,9 +26,8 @@ To debug an API issue using the Traffic Trace dashboard, follow these steps:
 
 **Prerequisites**
 
-You need:
-- an active [TechPass](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass) account.
-- access to your Elastic Cloud deployment.
+- An active [TechPass](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass) account.
+- Access to your Elastic Cloud deployment.
 
 <details><b><summary>Step 1: View the Traffic Trace dashboard</b></summary>
 
@@ -101,7 +100,7 @@ To verify that a client or application has made a request to the APEX Cloud API 
 
 ![traffic-trace-message](/images/dashboard-traffic-details-header.png) 
 
-This header is located under the **transactionElements.leg0.protocolInfo.recvHeader** column in the Traffic Details panel.
+Locate the header in the **transactionElements.leg0.protocolInfo.recvHeader** column in the Traffic Details panel.
 
 **Syntax**<br>
 `X-Forwarded-For: <client>, <proxy1>, <proxy2>`
