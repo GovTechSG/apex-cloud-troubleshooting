@@ -29,7 +29,7 @@ To debug an API issue using the Traffic Trace dashboard, follow these steps:
 - An active [TechPass](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass) account.
 - Access to your Elastic Cloud deployment.
 
-<details><b><summary>Step 1: View the Traffic Trace dashboard</b></summary>
+<details><b><summary style="font-size:20px">Step 1: View the Traffic Trace dashboard</b></summary>
 
 1. Access your StackOps account.
 
@@ -60,7 +60,7 @@ You can use the available filters in the dashboard to narrow down the data displ
 | **(5) Log level** | Filters by the log levels in the Traffic Trace panel. | Traffic trace panel |
 </details>
 
-<details><b><summary>Step 2: Find the Correlation ID</b></summary>
+<details><b><summary style="font-size:20px">Step 2: Find the Correlation ID</b></summary>
 
 1. On your Traffic Trace dashboard, configure the **Time range**, **Gateway**, and **API Final Status** filters to narrow down the list of API requests in the Traffic Summary panel.
     > **Note:** You can choose to skip this step and proceed to browse the list of API requests in the Traffic Summary panel. These requests will be sorted based on the default time range that is set in your dashboard.
@@ -72,7 +72,7 @@ You can use the available filters in the dashboard to narrow down the data displ
     > **Note:** You can also hover over the Correlation ID entry and  click the (**+**) icon to filter the results by that value.
 </details>
 
-<details><b><summary>Step 3: View the traffic trace</b></summary>
+<details><b><summary style="font-size:20px">Step 3: View the traffic trace</b></summary>
 
 1. Clear any filters that you used to find the Correlation ID.
 
