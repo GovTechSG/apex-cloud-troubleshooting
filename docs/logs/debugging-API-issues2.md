@@ -24,7 +24,7 @@ The dashboard consists of three panels.
 
 To debug an API issue using the Traffic Trace dashboard, follow these steps:
 
-**Prerequisites**
+#### Prerequisites
     - An active [TechPass](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass) account.
     - Access to your Elastic Cloud deployment.
 
