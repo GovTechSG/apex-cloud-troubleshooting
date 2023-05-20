@@ -1,4 +1,4 @@
-# Debugging API request issues using the Traffic Trace dashboard
+# Debugging API request issues
 
 To debug a problematic API request, you can trace the request using its **Correlation ID**. 
 
@@ -25,7 +25,6 @@ The dashboard consists of three panels.
 To debug an API issue using the Traffic Trace dashboard, follow these steps:
 
 **Prerequisites**
-
     - An active [TechPass](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass) account.
     - Access to your Elastic Cloud deployment.
 
