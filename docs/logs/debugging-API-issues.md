@@ -99,7 +99,7 @@ You can use the available filters in the dashboard to narrow down the data displ
 
 ## Verify the API request to the endpoint
 
-To verify that a client or application has made a request to the APEX Cloud API endpoint, you can check the **X-Forwarded-For** header. 
+To verify the client or application that has made a request to the APEX Cloud API endpoint, you can check the **X-Forwarded-For** header. 
 
 ![traffic-trace-message](/images/dashboard-traffic-details-header.png) 
 
