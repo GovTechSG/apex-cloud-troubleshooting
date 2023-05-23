@@ -17,6 +17,7 @@ If you encounter errors during the JWT authentication process, you can take note
 
 | Error Code | Error Name | Error / Issue | Tested Result (Code / Error Body) | Comments |
 |---|---|---|---|---|
+| 403 | Forbidden | Authentication Error -  General JWT error.<br><br>It could be: Unable to download JWKS from endpoint or invalid JWT claims. | | |
 | 403/432 | Client Error | Unable to download JWKS from endpoint. Please check that URL is valid and is reachable. | 403 |  |
 | 433 | Client Error | Invalid JWKS in Application. Please ensure that JWKS is correct and is of the correct algorithm. | 433<br>Invalid JWKS in Application. Please ensure that JWKS is correct and is of the correct algorithm. |  |
 | 434 | Client Error | JWT header is missing. | 434<br>JWT header is missing. |  |
