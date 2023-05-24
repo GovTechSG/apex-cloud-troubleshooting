@@ -101,9 +101,11 @@ You can use the available filters in the dashboard to narrow down the data displ
 
 To verify the client or application that has made a request to the APEX Cloud API endpoint, you can check the **X-Forwarded-For** header. 
 
-![traffic-trace-message](/images/dashboard-traffic-details-header.png) 
+1. Find the the Correlation ID of the specific API request and filter the traffic trace logs by that correlation ID. You can refer to the steps in [View the API Traffic Trace](#view-the-api-traffic-trace).
+2. Locate the header in the **transactionElements.leg0.protocolInfo.recvHeader** column in the Traffic Details panel.
 
-Locate the header in the **transactionElements.leg0.protocolInfo.recvHeader** column in the Traffic Details panel.
+
+![traffic-trace-message](/images/dashboard-traffic-details-header.png) 
 
 **Syntax**<br>
 `X-Forwarded-For: <client>, <proxy1>, <proxy2>`
