@@ -5,11 +5,6 @@ If you encounter errors during the JWT authentication process,  refer to the tab
 - [Pre-Authentication Errors](#pre-authentication-errors)
 - [Authentication Errors](#authentication-errors)
 
-
-**Legend:**<br>
-(**+**) - Test not scripted<br>
-(<b>**</b>) - Consider validation checks
-
 ?> **Note:** You can collapse the left sidebar navigation for a better view of the tables.
 
 ## Pre-authentication errors 
@@ -31,7 +26,7 @@ If you encounter errors during the JWT authentication process,  refer to the tab
 | 446 | Client Error | Missing data hash claim. | 446 - Invalid JWT format. Please ensure that data claim is valid. | |
 | 447 | Client Error | Missing ‘exp’ claim. | 447 - Invalid exp claim. Please ensure that exp claim exists and JWT is not expired. | 
 
-## Authentication Errors
+## Authentication errors
 
 | Error Code | Error Name | Error / Issue | Tested Result (Code / Error Body) | Comments |
 |---|---|---|---|---|
