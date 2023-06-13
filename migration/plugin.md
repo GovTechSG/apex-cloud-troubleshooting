@@ -4,7 +4,7 @@
 
 
 
-If you are encountering errors when during JSON and XML conversion, refer to the tables below to help you determine the specific error.
+If you are encountering errors during JSON and XML conversion, refer to the tables below to help you determine the specific error.
 
 | Error Code | Conversion Error |
 | -- | -- | 

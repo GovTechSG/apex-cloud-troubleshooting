@@ -2,7 +2,7 @@
 - [API requests](docs/logs/debugging-API-issues.md)
 - [JWT authentication](/docs/jwt/error-codes.md)
 - [Networking](docs/networking/networking-issues.md)
-- [APEX Plugin](/migration/plugin.md)
+- [APEX plugin](/migration/plugin.md)
 
 **API Manager Portal**
 - [Common issues](/docs/manager-portal/common-issues.md)
