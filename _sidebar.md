@@ -1,16 +1,14 @@
 **General Issues**
 - [API requests](docs/logs/debugging-API-issues.md)
-- [JWT Authentication](/docs/jwt/error-codes.md)
+- [JWT authentication](/docs/jwt/error-codes.md)
 - [Networking](docs/networking/networking-issues.md)
+- [APEX Plugin](/migration/plugin.md)
 
 **API Manager Portal**
 - [Common issues](/docs/manager-portal/common-issues.md)
 
 **Support**
 - [Contact us](/docs/contact-us.md)
-
-
-
 
 <!-- 
 **API issues**
