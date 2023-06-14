@@ -45,3 +45,22 @@ For new APEX Cloud consumers, please visit the [APEX Cloud Onboarding Guide](htt
 ![Image](./image/im8-header.png)
 
 You may refer to [the MOF Cloud Security content](https://intranet.mof.gov.sg/portal/IM/Themes/IT-Management/Cloud/Topics/Cloud-Security.aspx) for more information. This is an intranet link.
+
+## Errors due to "Expect: 100-continue" header 
+
+**Issue:** Errors are being encountered on the server due to the `Expect: 100-continue` header sent from the APEX Cloud API Gateway.
+
+**Context:** The `Expect: 100-continue` header is enabled to send the request header and the request body separately. Possible uses cases for enabling the header include outbound authentication or providing bandwidth for a large request body.
+
+Initially, the client calls the backend with only the request headers and the `Expect: 100-continue` header.  The server replies with `HTTP status 100` if it is ready to receive the request, and then the request body is sent. For more information on the the use of the `Expect: 100-continue` header, refer to [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect).
+
+
+Disabling the `Expect: 100-continue` header will cause the API Gateway to send the complete request, including both the request headers and body, without the need for additional requests. 
+
+**Solution:** 
+
+There are two ways to resolve the errors:
+
+1. Allow or whitelist the `Expect: 100-continue` header in your Web Application Firewall (WAF) or Content Delivery Network (CDN).
+
+2. If the first option is not possible, [send a support ticket to the APEX Cloud team](https://form.gov.sg/63e0b55427939600132e0d5f) to disable the header for you.
