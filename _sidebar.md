@@ -7,8 +7,7 @@
 **API Manager Portal**
 - [Common issues](/docs/manager-portal/common-issues.md)
 
-**Support**
-- [Contact us](/docs/contact-us.md)
+
 
 <!-- 
 **API issues**
