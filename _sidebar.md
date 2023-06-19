@@ -7,7 +7,8 @@
 **API Manager Portal**
 - [Common issues](/docs/manager-portal/common-issues.md)
 
-
+**Support**
+- [Migration](/migration/support.md)
 
 <!-- 
 **API issues**
