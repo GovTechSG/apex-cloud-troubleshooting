@@ -1,7 +1,11 @@
+
+[**Home**](/docs/home.md)
 **General Issues**
-- [API requests](docs/logs/debugging-API-issues.md)
+- [API requests](/docs/logs/debugging-API-issues.md)
+    - [View the API traffic trace](/docs/logs/view-the-traffic-trace.md)
+    - [Verify the API request](/docs/logs/verify-api-request.md)
 - [JWT authentication](/docs/jwt/error-codes.md)
-- [Networking](docs/networking/networking-issues.md)
+- [Network connectivity](docs/networking/networking-issues.md)
 - [APEX plugin](/migration/plugin.md)
 
 **API Manager Portal**

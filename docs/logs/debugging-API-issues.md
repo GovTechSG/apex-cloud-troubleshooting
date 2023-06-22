@@ -6,11 +6,7 @@ When an API request is made, a unique Correlation ID is generated and attached t
 
 The Traffic Trace Dashboard helps you view and filter the list of the Correlation IDs and the details of each API request. 
 
-<figure style="text-align: center">
-  <img
-    src="https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/images/dashboard-traffic-trace.png"/>
-	  <figcaption>Fig 1: Traffic Trace Dashboard</figcaption>
-</figure>
+![Traffic-trace-dashboard](/images/dashboard-traffic-trace.png)
 
 The dashboard consists of three panels.
 
@@ -19,6 +15,8 @@ The dashboard consists of three panels.
 | **Traffic Summary** | Lists all the Correlation IDs that occurred in a specific time range. The API requests listed by their Correlation ID, which identifies a specific API request or response. |
 | **Traffic Details** | Shows the detailed results of the queried API endpoints. The details can determine whether an API call is bridging, such as when the **sentHeader** column returns two Correlation IDs. |
 | **Traffic Trace** | Shows the trace level for the  queried API. The details provided in this panel are used to debug the API request.
+
+<!--
 
 ## View the API Traffic Trace
 
@@ -112,6 +110,6 @@ To verify the client or application that has made a request to the APEX Cloud AP
 
 The `<client>` value refers to the source IP address of the application that initiated the API request to the APEX Cloud endpoint.
 
-
+-->
 
 
