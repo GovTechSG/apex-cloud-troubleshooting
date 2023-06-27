@@ -116,15 +116,15 @@ The connection is successful when an **ok status** is returned as shown in the s
 
 1. To retrieve a list of available cipher suites on your system, run the following **PowerShell** command: `Get-TlsCipherSuite | ft Name`
 
-2. Next, you can refer to the tables below to see which TLS protocol and cipher suites the APEX Cloud Intranet API Gateway and APEX Cloud Internet API Gateway support. 
+2. Next, you can refer to the tables below to see which TLS protocol and cipher suites that the APEX Cloud Intranet and Internet API Gateway support. 
 
-    ### APEX Cloud Intranet API Gateway
+    ### Intranet API Gateway
 
     | TLS Protocol Version | TLS Cipher Suites |
     | -- | -- |
     | Protocol-TLSv1.2 | ECDHE-ECDSA-AES128-GCM-SHA256<br> ECDHE-ECDSA-AES256-GCM-SHA384<br> ECDHE-RSA-AES128-GCM-SHA256<br> ECDHE-RSA-AES256-GCM-SHA384<br>
 
-    ### APEX Cloud Internet API Gateway
+    ### Internet API Gateway
 
     | TLS Protocol Version | TLS Cipher Suites |
     | -- | -- |
