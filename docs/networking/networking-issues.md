@@ -116,7 +116,7 @@ The connection is successful when an **ok status** is returned as shown in the s
 
 1. To retrieve a list of available cipher suites on your system, run the following **PowerShell** command: `Get-TlsCipherSuite | ft Name`
 
-2. Next, you can refer to the tables below to see the TLS protocol and cipher suites supported by the APEX Cloud Intranet and Internet API Gateway 
+2. Next, you can refer to the tables below to see the TLS protocol and cipher suites supported by the APEX Cloud Intranet and Internet API Gateway. 
 
     ### Intranet API Gateway
 
