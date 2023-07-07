@@ -1,6 +1,10 @@
 # Debugging API request issues
 
-To debug a problematic API request, you can trace the request using its **Correlation ID**. 
+To debug a problematic API request, you can trace the request using its **Correlation ID** in the Traffic Trace dashboard.
+
+1. [View the Traffic Trace dashboard](/docs/logs/view-the-traffic-trace.md).
+2. [View the Traffic Details](/docs/logs/verify-api-request.md).
+3. [View the Traffic Trace Root Cause](/docs/logs/trace-root-cause.md).
 
 When an API request is made, a unique Correlation ID is generated and attached to the request message. By tracing the Correlation ID and view the logs related to that ID, you can  pinpoint the source of the error or issue and identify the root cause of the problem.
 
@@ -16,6 +20,8 @@ The dashboard consists of four panels.
 | **Traffic Details - Client to APEX Cloud** | Shows the detailed results of the queried API endpoints specifically for the request between the Client and APEX Cloud. |
 | **Traffic Details - APEX Cloud to Endpoint** | Shows the detailed results of the queried API endpoints specifically for the request between APEX Cloud and the Endpoint. |
 | **Traffic Trace Root Cause** | Shows the trace level for the  queried API. The details provided in this panel are used to debug the API request.
+
+
 
 <!--
 
