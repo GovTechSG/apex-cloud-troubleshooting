@@ -2,11 +2,7 @@
 
 To debug the issue by checking the Traffic Details, follow these steps:
 
-1. In the Correlation ID filter, paste the value of the Correlation ID that corresponds to the problematic API request. 
-
-    > **Note:** Make sure to clear any filters that you previously used to find the Correlation ID.
-
-    ![paste correlation ID](/./images/dashboard-correlationid-filter.png) 
+1. In the Correlation ID filter, paste the value of the Correlation ID that corresponds to the problematic API request. Make sure to clear any filters that you previously used to find the Correlation ID.
 
 1. Scroll down to the **Traffic Details - Client to APEX Cloud** and **Traffic Details - APEX Cloud to Endpoint** panels. From here, you can trace the traffic details of the request.
 
@@ -27,7 +23,7 @@ Use this panel to determine whether an API request is experiencing failure on th
 
     The <TENANT-PUBLIC-IP> value refers to the **source IP address** of the application that initiated the API request.
 
-- The **X-CorrelationID** (**3**) header determines that the API is a Bridging API if there are **tw**o correlation ID values. Bridging APIs can be:
+- The **X-CorrelationID** (**3**) header determines that the API is a Bridging API if there are **two** correlation ID values. Bridging APIs can be:
     - Backend-hosted in Intranet and exposed in Internet
     - Backend-hosted in Internet and exposed in Intranet
 

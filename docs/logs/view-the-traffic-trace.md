@@ -30,7 +30,7 @@ Ensure that you have:
 
 ## Step 2: Find the Correlation ID
 
-1. On your Traffic Trace dashboard, configure the **Time range**, **App Org**, **App Name**, **Gateway**, and **API Final Status** filters to narrow down the list of API requests in the Traffic Summary panel.
+1. On your Traffic Trace dashboard, configure the dashboard filters to narrow down the list of API requests in the Traffic Summary panel.
 
     > **Note:** You can choose to skip this step and proceed to browse the list of API requests in the Traffic Summary panel. These requests will be sorted based on the default time range that is set in your dashboard.
 

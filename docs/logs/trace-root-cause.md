@@ -2,11 +2,7 @@
 
 To debug the issue by checking the Traffic Trace Root Cause, follow these steps:
 
-1. In the Correlation ID filter, paste the value of the Correlation ID that corresponds to the problematic API request. 
-
-    > **Note:** Make sure to clear any filters that you previously used to find the Correlation ID.
-
-    ![paste correlation ID](/./images/dashboard-correlationid-filter.png) 
+1. In the Correlation ID filter, paste the value of the Correlation ID that corresponds to the problematic API request. Make sure to clear any filters that you previously used to find the Correlation ID.
 
 1. Scroll down to the Traffic Trace Root Cause panel and check the details in the message column. From here, you can trace the events and the root cause of the issue.
 
