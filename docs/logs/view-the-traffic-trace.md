@@ -17,7 +17,6 @@ Ensure that you have:
     - **Production:** [go.gov.sg/apex-report](http://go.gov.sg/apex-report)<br>
     - **Staging:** [go.gov.sg/apex-report-stg](http://go.gov.sg/apex-report-stg)
 
-
 1. Log in with [TechPass](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass). The Elastic Cloud dashboard is displayed. 
 
 1. From the Spaces menu, select your project space.
@@ -28,7 +27,10 @@ Ensure that you have:
 
 ![dashboard](/./images/dashboard.gif)
 
-You can use the available filters in the dashboard to narrow down the data displayed in the panels.
+
+## Step 2: Find the Correlation ID
+
+1. On your Traffic Trace dashboard, configure the **Time range**, **App Org**, **App Name**, **Gateway**, and **API Final Status** filters to narrow down the list of API requests in the Traffic Summary panel.
 
 ![Select dashboard filters](/./images/dashboard-filters.png) 
 
@@ -41,11 +43,6 @@ You can use the available filters in the dashboard to narrow down the data displ
 | **(5) Gateway** | Filters the gateway type by either **internal** or **external** values. | Traffic Summary panel
 | **(6) API Final Status** | Filters the status of the request by either **Pass** or **Fail** values. | Traffic Summary panel
 | **(7) Log level** | Filters the log levels in the Traffic Trace panel. | Traffic trace panel |
-
-
-## Step 2: Find the Correlation ID
-
-1. On your Traffic Trace dashboard, configure the **Time range**, **App Org**, **App Name**, **Gateway**, and **API Final Status** filters to narrow down the list of API requests in the Traffic Summary panel.
     > **Note:** You can choose to skip this step and proceed to browse the list of API requests in the Traffic Summary panel. These requests will be sorted based on the default time range that is set in your dashboard.
 
 1. Browse through the list of API requests in the Traffic Summary panel, and copy the **Correlation ID** of the problematic request.

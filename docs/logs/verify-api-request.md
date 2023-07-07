@@ -11,12 +11,12 @@ To debug the issue by checking the Traffic Details, follow these steps:
 1. Scroll down to the **Traffic Details - Client to APEX Cloud** and **Traffic Details - APEX Cloud to Endpoint** panels. From here, you can trace the traffic details of the request.
 
 
-## Traffic Details - Client to APEX Cloud
+## Client to APEX Cloud panel
 
-Use this panel to determine whether an API request is experiencing failure on the **Client to APEX Cloud** segment of the request (Leg 0).<br><br>
+Use this panel to determine whether an API request is experiencing failure on the Client to APEX Cloud segment of the request (Leg 0).<br><br>
     ![client-to-apex](/images/trafficdetails-clienttoapex.png) 
 
-- **The HTTP response** (**1**) shows the HTTP response. In the example below, the response shows a `446 Client Error`.
+- The **HTTP response** (**1**) shows the HTTP response. In the example below, the response shows a `446 Client Error`.
 
     ![client-to-apex](/images/trafficdetails-clienttoapex-error.png) 
 
@@ -25,15 +25,15 @@ Use this panel to determine whether an API request is experiencing failure on th
     **Syntax**<br>
     `X-Forwarded-For: <TENANT-PUBLIC-IP>, <proxy1>, <proxy2>`
 
-    The `<TENANT-PUBLIC-IP>` value refers to the **source IP address** of the application that initiated the API request.
+    The <TENANT-PUBLIC-IP> value refers to the **source IP address** of the application that initiated the API request.
 
 - The **X-CorrelationID** header (**3**) helps determine if the API is bridging. If there are two correlation ID values, it is a Bridging API. Bridging APIs can be:
     - Backend-hosted in Intranet and exposed in Internet
     - Backend-hosted in Internet and exposed in Intranet
 
-## Traffic Details - APEX Cloud to Endpoint 
+## APEX Cloud to Endpoint panel
 
-Use this panel to determine whether an API request is experiencing failure on the **APEX Cloud to Endpoint** segment of the request (Leg 1).<br><br>
+Use this panel to determine whether an API request is experiencing failure on the APEX Cloud to Endpoint segment of the request (Leg 1).<br><br>
 ![apex-to-endpoint](/images/trafficdetails-apextoendpoint.png) 
 
 
