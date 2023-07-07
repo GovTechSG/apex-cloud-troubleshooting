@@ -4,7 +4,7 @@ To debug the issue by checking the Traffic Trace Root Cause, follow these steps:
 
 1. In the Correlation ID filter, paste the value of the Correlation ID that corresponds to the problematic API request. 
 
-    ?> **Note:** Make sure to clear any filters that you previously used to find the Correlation ID.
+    > **Note:** Make sure to clear any filters that you previously used to find the Correlation ID.
 
     ![paste correlation ID](/./images/dashboard-correlationid-filter.png) 
 
@@ -22,4 +22,4 @@ To export the track trace logs in `.csv` format, follow these steps:
 
 1. Click **Download CSV**.
 
-    ![traffic-trace-message](/./images/dashboard-traffic-trace-export.png) 
+    ![traffic-trace-message](/images/dashboard-traffic-trace-export.png) 

@@ -32,20 +32,21 @@ Ensure that you have:
 
 1. On your Traffic Trace dashboard, configure the **Time range**, **App Org**, **App Name**, **Gateway**, and **API Final Status** filters to narrow down the list of API requests in the Traffic Summary panel.
 
-![Select dashboard filters](/./images/dashboard-filters.png) 
-
-| Filter | Description | Used for |
-| --- | -- | -- |
-| **(1) Time range** | Specifies the time range that the API was processed. | All panels
-| **(2) CorrelationID** | Filters or identifies a specific API request in a query. | All panels
-| **(3) App Org** | Filters the requests by application's consumer  organisation | Traffic Summary panel
-| **(4) App Name** | Filters the requests by application name | Traffic Summary panel
-| **(5) Gateway** | Filters the gateway type by either **internal** or **external** values. | Traffic Summary panel
-| **(6) API Final Status** | Filters the status of the request by either **Pass** or **Fail** values. | Traffic Summary panel
-| **(7) Log level** | Filters the log levels in the Traffic Trace panel. | Traffic trace panel |
     > **Note:** You can choose to skip this step and proceed to browse the list of API requests in the Traffic Summary panel. These requests will be sorted based on the default time range that is set in your dashboard.
 
-1. Browse through the list of API requests in the Traffic Summary panel, and copy the **Correlation ID** of the problematic request.
+    ![Select dashboard filters](/./images/dashboard-filters.png) 
+
+    | Filter | Description | Used for |
+    | --- | -- | -- |
+    | **(1) Time range** | Specifies the time range that the API was processed. | All panels
+    | **(2) CorrelationID** | Filters or identifies a specific API request in a query. | All panels
+    | **(3) App Org** | Filters the requests by application's consumer  organisation | Traffic Summary panel
+    | **(4) App Name** | Filters the requests by application name | Traffic Summary panel
+    | **(5) Gateway** | Filters the gateway type by either **internal** or **external** values. | Traffic Summary panel
+    | **(6) API Final Status** | Filters the status of the request by either **Pass** or **Fail** values. | Traffic Summary panel
+    | **(7) Log level** | Filters the log levels in the Traffic Trace panel. | Traffic trace panel |
+
+2. Browse through the list of API requests in the Traffic Summary panel, and copy the **Correlation ID** of the problematic request.
 
     ![copy correlation ID](/./images/dashboard-correlationid.png) 
 

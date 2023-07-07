@@ -4,7 +4,7 @@ To debug the issue by checking the Traffic Details, follow these steps:
 
 1. In the Correlation ID filter, paste the value of the Correlation ID that corresponds to the problematic API request. 
 
-    ?> **Note:** Make sure to clear any filters that you previously used to find the Correlation ID.
+    > **Note:** Make sure to clear any filters that you previously used to find the Correlation ID.
 
     ![paste correlation ID](/./images/dashboard-correlationid-filter.png) 
 
@@ -20,14 +20,14 @@ Use this panel to determine whether an API request is experiencing failure on th
 
     ![client-to-apex](/images/trafficdetails-clienttoapex-error.png) 
 
-- The **X-Forwarded-For** header (**2**) verifies the Client IP address.
+- The **X-Forwarded-For** (**2**) header verifies the Client IP address.
 
     **Syntax**<br>
     `X-Forwarded-For: <TENANT-PUBLIC-IP>, <proxy1>, <proxy2>`
 
     The <TENANT-PUBLIC-IP> value refers to the **source IP address** of the application that initiated the API request.
 
-- The **X-CorrelationID** header (**3**) helps determine if the API is bridging. If there are two correlation ID values, it is a Bridging API. Bridging APIs can be:
+- The **X-CorrelationID** (**3**) header determines that the API is a Bridging API if there are **tw**o correlation ID values. Bridging APIs can be:
     - Backend-hosted in Intranet and exposed in Internet
     - Backend-hosted in Internet and exposed in Intranet
 
