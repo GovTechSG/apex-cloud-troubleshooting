@@ -8,15 +8,18 @@ The Traffic Trace Dashboard helps you view and filter the list of the Correlatio
 
 ![Traffic-trace-dashboard](/images/dashboard-traffic-trace.png)
 
-The dashboard consists of three panels.
+The dashboard consists of four panels.
 
 | Panel | Description |
 | --- | --- |
-| **Traffic Summary** | Lists all the Correlation IDs that occurred in a specific time range. The API requests listed by their Correlation ID, which identifies a specific API request or response. |
-| **Traffic Details** | Shows the detailed results of the queried API endpoints. The details can determine whether an API call is bridging, such as when the **sentHeader** column returns two Correlation IDs. |
-| **Traffic Trace** | Shows the trace level for the  queried API. The details provided in this panel are used to debug the API request.
+| **Traffic Summary** | Lists all the Correlation IDs that occurred in a specific time range. The API requests are listed by  Correlation ID. |
+| **Traffic Details - Client to APEX Cloud** | Shows the detailed results of the queried API endpoints specifically for the request between the Client and APEX Cloud. |
+| **Traffic Details - APEX Cloud to Endpoint** | Shows the detailed results of the queried API endpoints specifically for the request between APEX Cloud and the Endpoint. |
+| **Traffic Trace Root Cause** | Shows the trace level for the  queried API. The details provided in this panel are used to debug the API request.
 
 <!--
+
+| **Traffic Details** | Shows the detailed results of the queried API endpoints. The details can determine whether an API call is bridging, such as when the **sentHeader** column returns two Correlation IDs.
 
 ## View the API Traffic Trace
 

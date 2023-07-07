@@ -2,8 +2,9 @@
 [**Home**](/docs/home.md)
 **General Issues**
 - [API requests](/docs/logs/debugging-API-issues.md)
-    - [View the API traffic trace](/docs/logs/view-the-traffic-trace.md)
-    - [Verify the API request](/docs/logs/verify-api-request.md)
+    - [Traffic Trace dashboard](/docs/logs/view-the-traffic-trace.md)
+    - [Traffic Details](/docs/logs/verify-api-request.md)
+    - [Traffic Trace Root Cause](/docs/logs/trace-root-cause.md)
 - [JWT authentication](/docs/jwt/error-codes.md)
 - [Network connectivity](docs/networking/networking-issues.md)
 - [APEX plugin](/migration/plugin.md)
