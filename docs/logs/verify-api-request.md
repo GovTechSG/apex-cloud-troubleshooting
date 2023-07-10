@@ -12,18 +12,18 @@ To debug the issue by checking the Traffic Details, follow these steps:
 Use this panel to determine whether an API request is experiencing failure on the Client to APEX Cloud segment of the request (Leg 0).<br><br>
     ![client-to-apex](/images/trafficdetails-clienttoapex.png) 
 
-- The **HTTP response** (**1**) shows the HTTP response. In the example below, the response shows a `446 Client Error`.
-
-    ![client-to-apex](/images/trafficdetails-clienttoapex-error.png) 
-
-- The **X-Forwarded-For** (**2**) header verifies the Client IP address.
+- The **X-Forwarded-For** (**1**) header verifies the Client IP address.
 
     **Syntax**<br>
     `X-Forwarded-For: <TENANT-PUBLIC-IP>, <proxy1>, <proxy2>`
 
-    The <TENANT-PUBLIC-IP> value refers to the **source IP address** of the application that initiated the API request.
+    The <TENANT-PUBLIC-IP> value refers to the Source IP address of the application that initiated the API request.
 
-- The **X-CorrelationID** (**3**) header determines that the API is a Bridging API if there are **two** correlation ID values. Bridging APIs can be:
+- The **HTTP response** (**2**) shows the HTTP response. In the example below, the response shows a `446 Client Error`.
+
+    ![client-to-apex](/images/trafficdetails-clienttoapex-error.png) 
+
+- The **X-CorrelationID** (**3**) header determines that the API is a **Bridging API** if there are two correlation ID values. Bridging APIs can be:
     - Backend-hosted in Intranet and exposed in Internet
     - Backend-hosted in Internet and exposed in Intranet
 

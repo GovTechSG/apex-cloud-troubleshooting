@@ -1,12 +1,12 @@
 # Debugging API request issues
 
-To debug a problematic API request, you can trace the request using its **Correlation ID** in the Traffic Trace dashboard.
+To debug a problematic API request, you can trace the request using  the Traffic Trace dashboard.
 
-1. [View the Traffic Trace dashboard](/docs/logs/view-the-traffic-trace.md).
-2. [View the Traffic Details](/docs/logs/verify-api-request.md).
-3. [View the Traffic Trace Root Cause](/docs/logs/trace-root-cause.md).
+1. View the  [Traffic Trace dashboard](/docs/logs/view-the-traffic-trace.md).
+2. View the [Traffic Details](/docs/logs/verify-api-request.md).
+3. View the [Traffic Trace Root Cause](/docs/logs/trace-root-cause.md).
 
-When an API request is made, a unique Correlation ID is generated and attached to the request message. By tracing the Correlation ID and view the logs related to that ID, you can  pinpoint the source of the error or issue and identify the root cause of the problem.
+The steps above are all linked to the Correlation ID value. When an API request is made, a unique Correlation ID is generated and attached to the request message. By tracing the Correlation ID and view the logs related to that ID, you can  pinpoint the source of the error or issue and identify the root cause of the problem.
 
 The Traffic Trace Dashboard helps you view and filter the list of the Correlation IDs and the details of each API request. 
 
