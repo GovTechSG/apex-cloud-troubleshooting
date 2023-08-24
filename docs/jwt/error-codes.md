@@ -32,3 +32,4 @@ If you encounter errors during the JWT authentication process,  refer to the tab
 |---|---|---|---|---|
 | 450 | Client Error | Authentication Error - Invalid API Key | Authentication Error - Invalid API Key.  Please double-check API key and ensure Application is subscribed to API. | |
 | 452 | Client Error | Authentication Error - Signature | Authentication Error - JWT signature. Ensure JWT is signed with correct key.  Please double-check jwt is signed correctly with jwt.io. | |
+| 499 | Client Error | Authentication Error - Re-use of Token | Please ensure that JWT is not reused and nonce is unique for each call. | |
